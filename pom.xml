@@ -2,14 +2,14 @@
  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>sampleTodo</artifactId>
+  <artifactId>sampleRemoteDao</artifactId>
   <packaging>war</packaging>
   <version>0.1</version>
-  <name>sampleTodo</name>
+  <name>sampleRemoteDao</name>
   <url>http://maven.apache.org</url>
   
   <build>
-    <finalName>sampleTodo</finalName>
+    <finalName>sampleRemoteDao</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
