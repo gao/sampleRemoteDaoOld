@@ -197,5 +197,5 @@
 	brite.dao.RemoteDao = RemoteDao;
 	// ------ /DAO Interface Implementation ------ //
 
-})(jQuery);
+})();
 // --------- /Remote Dao --------- //

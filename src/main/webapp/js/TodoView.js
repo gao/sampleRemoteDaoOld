@@ -14,6 +14,7 @@
 		// and store them in the view for faster access, as it is executed 
 		// after the view is displayed (async)
 		postDisplay: function(){
+			console.log("--------todoView----");
 			//	Here we ref DOM elements by ID to follow todoMVC markups, 
 			//  but in real application, should use class rather than ids 
 			//  for better componentization.

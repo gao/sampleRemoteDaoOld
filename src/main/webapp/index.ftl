@@ -16,9 +16,6 @@
     <script type="text/javascript">
       // set the contextPath as a javascript global variable
       var contextPath = "${_r.contextPath}";
-      
-      // set the default to load the template
-      brite.defaultComponentConfig.loadTmpl = true;
     </script>
     [#-- /Global Initialization --] 
     	
@@ -28,5 +25,10 @@
   	<div id="bodyPage">
   		 
   	</div>
+  	<script type="text/javascript">
+		$(function(){
+			brite.display("TodoView","body");
+		});
+	</script>
   </body>
 </html>

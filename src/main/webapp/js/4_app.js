@@ -1,10 +1,5 @@
 var app = app || {};
 
-// called by jQuery, when document is ready
-$(function(){
-	brite.display("TodoView","body");
-});
-
 
 // define the test data
 (function(){
