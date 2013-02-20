@@ -1,10 +1,13 @@
 var app = app || {};
 
-
 // define the test data
-(function(){
-	app.taskDao = brite.registerDao(new brite.InMemoryDaoHandler("Task"));	
-})();
+(function($){
+	//Remote URL
+	app.remoteServiceURL = "http://localhost:8080/sampleRemoteDao";
+	
+	//app.taskDao = brite.registerDao(new brite.InMemoryDaoHandler("Task"));	
+	app.taskDao = brite.registerDao(new brite.dao.RemoteDao("Task"));
+})(jQuery);
 
 // --------- Simple Render Wrapper Function ---------- //
 (function(w){  
